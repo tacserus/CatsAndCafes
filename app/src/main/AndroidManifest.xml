@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".map.model.application.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,7 +19,7 @@
             android:value="78cb7118-2ec6-4b13-b505-5c1500cd9f49" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".map.ui.activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CatAndCafesKotlin">
